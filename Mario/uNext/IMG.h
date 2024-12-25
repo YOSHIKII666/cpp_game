@@ -29,5 +29,3 @@ public:
 };
 #endif
 
-
-#endif //IMG_H

@@ -37,7 +37,18 @@ add_executable (uMario ${uMario_SOURCES}
         Mario/uNext/MusicManger.cpp
         Mario/uNext/MusicManger.h
         Mario/uNext/Music.h
-        Mario/uNext/MenuOption.h)
+        Mario/uNext/MenuOption.h
+        Mario/uNext/Menu.cpp
+        Mario/uNext/Menu.h
+        Mario/uNext/MainMenu.h
+        Mario/uNext/LoadingMenu.h
+        Mario/uNext/AboutMenu.h
+        Mario/uNext/Console.h
+        Mario/uNext/OptionsMenu.h
+        Mario/uNext/PauseMenu.h
+        Mario/uNext/MenuManger.h
+        Mario/uNext/CFG.h
+        Mario/uNext/Text.cpp)
 
 target_link_libraries(uMario ${SDL2_LIBRARY} ${SDL2_IMAGE_LIBRARY} ${SDL2_MIXER_LIBRARY})
 
