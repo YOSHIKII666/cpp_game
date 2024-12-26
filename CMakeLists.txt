@@ -49,7 +49,8 @@ add_executable (uMario ${uMario_SOURCES}
         Mario/uNext/MenuManger.h
         Mario/uNext/CFG.h
         Mario/uNext/Text.cpp
-        Mario/uNext/Sprite.h)
+        Mario/uNext/Sprite.h
+        Mario/uNext/Block.h)
 
 target_link_libraries(uMario ${SDL2_LIBRARY} ${SDL2_IMAGE_LIBRARY} ${SDL2_MIXER_LIBRARY})
 
