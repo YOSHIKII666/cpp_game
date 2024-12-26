@@ -24,6 +24,7 @@ Sprite::Sprite(SDL_Renderer *rR, std::vector<std::string> sSprite, std::vector<u
 }
 
 Sprite::~Sprite() {
+    //delete每一张图片
     for(std::vector<CIMG*>::iterator i=tSprite.begin();i!=tSprite.end();i++) {
         delete(*i);
     }
